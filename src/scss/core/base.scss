@@ -71,8 +71,8 @@ a {
 
 section {
   @include clearfix;
-  padding: 8px 0;
-  border-top: 2px solid $colorBorders;
+  padding: 18px 0;
+  border-top: 3px solid $colorBorders;
 
   &:first-of-type {
     border-top: none;
