@@ -1,0 +1,30 @@
+.work-experience {
+  &__item {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    span {
+      font-size: 0.9em;
+      color: rgba(23, 18, 29, 0.96);
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    p {
+      width: 520px;
+    }
+  }
+
+  &__details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+
+    li {
+      list-style: default;
+    }
+  }
+}

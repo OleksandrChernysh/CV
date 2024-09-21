@@ -1,13 +1,5 @@
-// Import Core
-@import "core/variables";
-@import "core/mixins";
-@import "core/base";
+/** 
+ * Styles
+ */
 
-// Import partials
-@import "partials/intro";
-@import "partials/skills";
-@import "partials/portfolio";
-@import "partials/work-experience";
-@import "partials/education";
-@import "partials/languages";
-@import "partials/personal-info-and-contacts";
+@import "core/index";

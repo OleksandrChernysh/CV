@@ -1,0 +1,14 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "block-no-empty": null,
+    "color-named": "never",
+    "color-no-hex": true,
+    "max-nesting-depth": 3,
+    "property-no-vendor-prefix": null,
+    "selector-max-compound-selectors": 3,
+    "selector-no-qualifying-type": null
+  }
+}
