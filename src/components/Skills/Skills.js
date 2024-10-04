@@ -58,6 +58,10 @@ const Skills = () => {
           <span>React.js</span>
           <span>3 months</span>
         </li>
+        <li className="skills__list-item">
+          <span>Linux</span>
+          <span>5 years</span>
+        </li>
       </ul>
     </section>
   );

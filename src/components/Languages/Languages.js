@@ -12,7 +12,7 @@ const Languages = () => {
         </li>
         <li>
           <span>English:</span>
-          <span>?</span>
+          <span>intermediate</span>
         </li>
       </ul>
     </div>
