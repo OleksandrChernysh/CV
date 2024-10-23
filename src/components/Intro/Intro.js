@@ -10,10 +10,13 @@ const Intro = () => {
       <div className="intro__card">
         <img className="intro__image" src={MyImage} alt="Oleksandr Chernysh" />
         <p className="intro__text">
-          Hello, my name is Oleksandr. Since 2015 I&apos;ve been working as a
-          markup and a front-end developer. I&apos;ve been working with landing
-          pages and corporate websites as frontend-developer, and I did markup
-          for large Angular and React online platforms and stores.
+          Hello, my name is Oleksandr. I have been working as a markup and
+          front-end developer since 2015. My experience includes developing
+          landing pages and corporate websites, as well as creating markup for
+          large-scale Angular and React platforms and online stores. Currently,
+          I am maintaining and enhancing the front end of&nbsp;
+          <a href="https://treatfield.com">Treatfield.com</a>, an online
+          psychotherapy platform.
         </p>
       </div>
     </section>
