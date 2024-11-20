@@ -1,11 +1,12 @@
 .portfolio {
-  &__heading {
-  }
-  &__list {
-    column-count: 3;
+	&__heading {
+	}
 
-    li {
-      list-style: none;
-    }
-  }
+	&__list {
+		column-count: 3;
+
+		li {
+			list-style: none;
+		}
+	}
 }
