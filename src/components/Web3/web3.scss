@@ -1,0 +1,15 @@
+.web3 {
+	&__details {
+		margin-top: 10px;
+		padding-left: 15px;
+
+		li {
+			list-style: circle;
+			margin-bottom: 5px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
