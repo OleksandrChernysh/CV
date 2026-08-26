@@ -7,6 +7,8 @@
     "scripts": {
         "start": "webpack serve --env mode=development",
         "build": "webpack --env mode=production",
+        "export-pdf": "node src/ExportPDF.js",
+        "build:pdf": "npm run build && npm run export-pdf",
         "stylelint": "NODE_OPTIONS=--no-deprecation stylelint \"./src/**/*.scss\"",
         "stylelint:fix": "NODE_OPTIONS=--no-deprecation stylelint --fix \"./src/**/*.scss\"",
         "eslint": "eslint \"./src/**/*.js\"",
@@ -46,6 +48,7 @@
         "postcss-loader": "^8.1.1",
         "postcss-sort-media-queries": "^5.2.0",
         "prettier": "^3.3.3",
+        "puppeteer-core": "^25.9.0",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "sass": "^1.80.7",

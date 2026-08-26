@@ -10,11 +10,11 @@ const Intro = () => {
             <div className="intro__card">
                 <img className="intro__image" src={MyImage} alt="Oleksandr Chernysh" />
                 <p className="intro__text">
-                    Hello, my name is Oleksandr. I have been working as a markup and front-end developer since 2015. My
-                    experience includes developing landing pages and corporate websites, as well as creating markup for
-                    large-scale Angular and React platforms and online stores. Currently, I am maintaining and enhancing
-                    the front end of&nbsp;
-                    <a href="https://treatfield.com">Treatfield.com</a>, an online psychotherapy platform.
+                    Experienced Frontend Engineer with a strong foundation in modern JavaScript (ES6+), UI architecture, and design systems. 
+                    Since 2015, I have specialized in building scalable architectures, responsive web applications, and pixel-perfect UIs. 
+                    I excel at refactoring legacy codebases, replacing outdated frameworks with modern standards (Flexbox/Grid, ES6 modules), 
+                    and optimizing frontend infrastructure (Webpack, ESLint). Currently driving the architectural transition to TypeScript 
+                    and laying the groundwork for adopting React on a large-scale production platform.
                 </p>
             </div>
         </section>

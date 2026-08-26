@@ -3,30 +3,16 @@ import './skills.scss';
 
 const Skills = () => {
 	const skillsList = [
-		{ name: 'HTML5', since: 2015 },
-		{ name: 'CSS2/3', since: 2015 },
-		{ name: 'SCSS/SMACSS', since: 2016 },
-		{ name: 'Bootstrap', since: 2016 },
-		{ name: 'Material Design for Web', since: null, skillLevel: '2 years' },
+		{ name: 'JavaScript (ES6+)', since: 2016 },
+		{ name: 'HTML5 / CSS3', since: 2015 },
+		{ name: 'CSS Flexbox / Grid', since: 2018 },
+		{ name: 'SCSS / SMACSS', since: 2016 },
+		{ name: 'Webpack / ESLint', since: 2021 },
 		{ name: 'Git', since: 2016 },
-		{ name: 'jQuery', since: 2016 },
-		{ name: 'Gulp', since: 2016 },
-		{ name: 'ES5', since: 2016 },
-		{ name: 'ES6', since: 2023 },
-		{ name: 'Typescript', since: null, skillLevel: 'basic understanding' },
-		{ name: 'React', since: null, skillLevel: 'basic understanding' },
-		{ name: 'NPM', since: 2016 },
-		{ name: 'Webpack', since: 2023 },
-		{ name: 'Node.js', since: null, skillLevel: 'basic understanding' },
-		{ name: 'PHP', since: null, skillLevel: 'basic understanding' },
-		{ name: 'Ruby & Ruby on Rails', since: null, skillLevel: 'basic understanding' },
-		{ name: 'Python', since: null, skillLevel: 'basic understanding' },
-		{ name: 'MySQL', since: null, skillLevel: 'basic understanding' },
-		{ name: 'Bash', since: null, skillLevel: 'basic understanding' },
-		{ name: 'Docker', since: 2021 },
-		{ name: 'Linux', since: 2017 },
-		{ name: 'Figma', since: null, skillLevel: null },
-		{ name: 'Photoshop', since: null, skillLevel: null }
+		{ name: 'Docker / Bash', since: 2017 },
+		{ name: 'TypeScript', since: null, skillLevel: 'In Progress' },
+		{ name: 'React', since: null, skillLevel: 'In Progress' },
+		{ name: 'Figma', since: null, skillLevel: 'UI/UX extraction' }
 	];
 
 	const currentYear = new Date().getFullYear();

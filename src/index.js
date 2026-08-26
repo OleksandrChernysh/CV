@@ -8,5 +8,5 @@ const root = createRoot(document.getElementById('root'));
 root.render(<App />);
 
 if (import.meta.webpackHot) {
-    import.meta.webpackHot.accept();
+	import.meta.webpackHot.accept();
 }
