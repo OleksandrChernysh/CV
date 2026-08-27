@@ -12,25 +12,19 @@ const WorkExperience = () => {
 					<span>September 2021 – Present</span>
 					<ul className="work-experience__details">
 						<li>
-							Maintaining and enhancing the frontend architecture of an online psychotherapy platform built on Yii2 and Webpack.
+							Maintaining and enhancing the frontend architecture of an online psychotherapy platform.
 						</li>
 						<li>
-							Led the massive migration of legacy jQuery/global scripts to modern ES6 modules, creating structured services and utility helpers (FormService, DOM/HTML utils), significantly reducing technical debt.
+							Initiating and driving technical decisions, including the architectural transition to TypeScript.
 						</li>
 						<li>
-							Replaced legacy Bootstrap UI with modern, lightweight CSS Flexbox and Grid architectures, reducing dependencies and improving maintainability.
+							Developed complex, highly interactive UI components in Vanilla JS, including dynamic modals, Fullcalendar integrations, and GDPR consent managers.
 						</li>
 						<li>
-							Developed complex, highly interactive UI components in Vanilla JS, including GDPR consent managers, dynamic modals, and Fullcalendar integrations.
+							Led the massive migration of legacy jQuery/global scripts to modern ES6 modules, creating structured services and utility helpers, significantly reducing technical debt.
 						</li>
 						<li>
-							Established frontend quality standards by introducing ESLint, SCSS linting, and modernizing the build pipeline from Gulp to Webpack (including dynamic .env-based dev servers and asset chunking).
-						</li>
-						<li>
-							Optimized web performance (Core Web Vitals / PageSpeed Insights) through advanced font display strategies, image optimization, and solving complex CSS cascade/deduplication issues for dynamic stylesheets.
-						</li>
-						<li>
-							Initiating and driving the architectural transition to TypeScript, laying the groundwork for a future migration to React.
+							Established frontend quality standards by introducing ESLint, SCSS linting, and modernizing the build pipeline from Gulp to Webpack.
 						</li>
 					</ul>
 				</li>

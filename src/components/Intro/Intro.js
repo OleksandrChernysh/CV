@@ -10,11 +10,9 @@ const Intro = () => {
             <div className="intro__card">
                 <img className="intro__image" src={MyImage} alt="Oleksandr Chernysh" />
                 <p className="intro__text">
-                    Experienced Frontend Engineer with a strong foundation in modern JavaScript (ES6+), UI architecture, and design systems. 
-                    Since 2015, I have specialized in building scalable architectures, responsive web applications, and pixel-perfect UIs. 
-                    I excel at refactoring legacy codebases, replacing outdated frameworks with modern standards (Flexbox/Grid, ES6 modules), 
-                    and optimizing frontend infrastructure (Webpack, ESLint). Currently driving the architectural transition to TypeScript 
-                    and laying the groundwork for adopting React on a large-scale production platform.
+                    Experienced Frontend Engineer with 9+ years of professional experience (since 2015) in modern JavaScript (ES6+), HTML5, and UI architecture. 
+                    I excel at driving technical decisions, such as the current architectural transition to TypeScript. 
+                    I specialize in building scalable architectures, responsive web applications, and handling complex interactions in large-scale Angular and React platforms.
                 </p>
             </div>
         </section>
